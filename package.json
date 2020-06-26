@@ -1,0 +1,25 @@
+{
+  "name": "bootstrap5",
+  "version": "1.0.0",
+  "description": "Bootstrap 5 template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rolytunes/bootstrap5.git"
+  },
+  "author": "Rolando Vazquez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rolytunes/bootstrap5/issues"
+  },
+  "homepage": "https://github.com/rolytunes/bootstrap5#readme",
+  "dependencies": {
+    "@popperjs/core": "^2.4.2",
+    "bootstrap": "^5.0.0-alpha1",
+    "bootstrap-icons": "^1.0.0-alpha4",
+    "popper.js": "^1.16.1"
+  }
+}

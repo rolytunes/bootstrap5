@@ -1,0 +1,23 @@
+@import "../../../node_modules/bootstrap/scss/bootstrap.scss";
+
+//overwrite styles here
+$primary: #401f7c;
+
+//Utilities
+$utilities: () !default;
+$utilities: map-merge(
+  (
+    "display": (
+      responsive: true,
+      print: true,
+      property: display,
+      class: d,
+      values: none inline inline-block block table table-row table-cell flex
+        inline-flex grid,
+    ),
+    /* for Grid: see how bootstrap uses utilities for Flex*/
+  ),
+  $utilities
+);
+
+@import "styles";
